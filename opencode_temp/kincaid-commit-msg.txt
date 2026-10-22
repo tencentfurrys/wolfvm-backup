@@ -1,0 +1,20 @@
+Add legacy-keyboard compat layer patch for gml_GlobalScript_Input
+
+- patch/inputcompat/gml_GlobalScript_Input.gml: full drop-in replacement that
+  ORs raw keyboard_check* reads into every input_check* wrapper on a static
+  verb->scancode map equal to the v1.0 defaults.
+- Semantics verified against offalynne/Input tag 10.1.0: InputVerbConsume
+  (latch until release, no released edge at latch end), InputBufferPressed
+  (frame - pressFrame <= duration), InputLong/InputLongPressed
+  (INPUT_LONG_DEFAULT_DELAY = 10 frames).
+- Frame tracking falls back to current_time deltas if the Input update
+  controller stops advancing, so the layer works even when the Input
+  pipeline stalls.
+- Removes the one-off keyboard_check(ord("Q")) / keyboard_check(ord("P"))
+  hacks (strict subset of the raw layer).
+- patch/inputcompat/README.md: UTMT apply steps, repack/sign commands,
+  x86_64 emulator test plan (x86_64 libyoyo.so is byte-identical between
+  builds), and the gamepad-event fallback if synthetic keys never reach GML.
+- STATUS.md: document the written layer; dropping "force KBM device" as a
+  separate patch (raw layer is device-independent, pinning -1 would break
+  gamepads).

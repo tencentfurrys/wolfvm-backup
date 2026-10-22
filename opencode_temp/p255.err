@@ -1,0 +1,14 @@
+[load db pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[db pair ok types=100] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[load cdb pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+[db pair ok types=57] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+RUN FAILED: step cap exceeded (100000) — runaway loop
+warnings=512 executed=99990
+  warn: ev322#5 string op on non-string bank: 555248137
+  warn: ev255#33 db_set: negative row -2
+  warn: ev255#33 250: write skipped out-of-bounds (type 48 row -2 field 0)
+  warn: ev255#43 250: negative field -2 (row-name?) unmodeled — skipped
+  warn: ev255#43 250: negative field -2 (row-name?) unmodeled — skipped
+  warn: ev255#43 250: negative field -2 (row-name?) unmodeled — skipped
+  warn: ev255#43 250: negative field -2 (row-name?) unmodeled — skipped
+  warn: ev255#43 250: negative field -2 (row-name?) unmodeled — skipped

@@ -1,0 +1,4 @@
+[load db pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[db pair ok types=100] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[load cdb pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+[db pair ok types=57] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project

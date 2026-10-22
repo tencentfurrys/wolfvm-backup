@@ -1,0 +1,14 @@
+[load db pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[db pair ok types=100] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[load cdb pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+[db pair ok types=57] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+RUN FAILED: step cap exceeded (100000) — runaway loop
+warnings=512 executed=99982
+  warn: ev154#60 121 skip (engine: dropped family f00 0 f000 6) target 1600042 flags 24576
+  warn: ev154#60 121 skip (engine: dropped family f00 0 f000 6) target 1600043 flags 24576
+  warn: ev406#4 250: -3 keep-sentinel row/field — skipped
+  warn: ev406#4 string op on non-string bank: 270035465
+  warn: ev406#4 string op on non-string bank: 270035465
+  warn: ev154#60 121 skip (engine: dropped family f00 0 f000 6) target 1600042 flags 24576
+  warn: ev154#60 121 skip (engine: dropped family f00 0 f000 6) target 1600043 flags 24576
+  warn: ev406#4 250: -3 keep-sentinel row/field — skipped

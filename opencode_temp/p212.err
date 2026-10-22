@@ -1,0 +1,14 @@
+[load db pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[db pair ok types=100] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\DataBase.project
+[load cdb pair] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+[db pair ok types=57] C:\Users\RDP\Documents\Default Project\Eris Dysnomia\Data\BasicData\CDataBase.project
+RUN FAILED: step cap exceeded (100000) — runaway loop
+warnings=512 executed=98416
+  warn: ev212#3 121 skip (engine: dropped family f00 0 f000 3) target 1600028 flags 12288
+  warn: ev212#3 121 skip (engine: dropped family f00 0 f000 3) target 1600020 flags 12288
+  warn: ev0#1 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0
+  warn: ev0#1 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0
+  warn: ev212#80 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0
+  warn: ev212#80 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0
+  warn: ev212#80 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0
+  warn: ev212#80 124 fam3 sysreg lookup via 0x491040 (0xaa96c0 absent) -> 0

@@ -1,0 +1,18 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Kagura Games\\Eris Dysnomia"
+		{
+			"string"
+			{
+				"Install_Path"		"%INSTALLDIR%"
+				"Exe_Path"		"%INSTALLDIR%\\Game.exe"
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"705bc3a082bc5500e11018f94498416e89a451e5af8488f95ebaa2dfc89218fbfaaede62500ee6bd7636ccb0488250c427dc571bd8b27dd5de5b8729c1f1aef9345ccc42857ab9376677e717149118e31c793bf61ee9ac74d96b342c59f4a0a966cdd30b85f1a2de100cd56413b36aaab3a0c9b8d363e964df96271fd70dd6ef"
+}

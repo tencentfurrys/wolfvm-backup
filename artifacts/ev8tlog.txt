@@ -1,0 +1,57 @@
+=> common 562 called
+<= common 562 returned
+=> common 3 called
+<= common 3 ret-bind op 1600000 <- slot 10 v=0
+<= common 3 returned
+=> common 292 called
+<= common 292 returned
+=> common 432 called
+<= common 432 returned
+=> common 371 called
+<= common 371 returned
+=> common 22 called
+<= common 22 returned
+=> common 216 called
+<= common 216 returned
+=> common 265 called
+=> common 219 called
+=> common 371 called
+<= common 371 ret-bind op 1600010 <- slot 10 v=1
+<= common 371 returned
+=> common 4 called
+<= common 4 returned
+<= common 219 returned
+<= common 265 returned
+=> common 363 called
+<= common 363 returned
+=> common 214 called
+=> common 0 called
+<= common 0 ret-bind op 1600009 <- slot 9 v=You started masturbating!
+<= common 0 returned
+=> common 5 called
+<= common 5 returned
+=> common 244 called
+<= common 244 returned
+=> common 144 called
+=> common 365 called
+<= common 365 returned
+=> common 143 called
+=> common 142 called
+<= common 142 ret-bind op 1600009 <- slot 9 v=
+<= common 142 returned
+=> common 5 called
+<= common 5 returned
+=> common 145 called
+<= common 145 returned
+<= common 143 returned
+=> common 508 called
+=> common 348 called
+<= common 348 ret-bind op 1600006 <- slot 7 v=？？？？？
+<= common 348 returned
+=> common 348 called
+<= common 348 ret-bind op 1600006 <- slot 7 v=？？？？？
+<= common 348 returned
+=> common 0 called
+<= common 0 ret-bind op 1600005 <- slot 9 v=Acquired Kinks
+<= common 0 returned
+=> common 510 called
